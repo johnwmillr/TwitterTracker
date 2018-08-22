@@ -1,0 +1,13 @@
+# Twitter credentials
+secrets.txt
+
+# Python
+.ipynb_checkpoints
+
+# Data
+*.json
+*.txt
+*.csv
+
+# macOS
+.DS_Store
