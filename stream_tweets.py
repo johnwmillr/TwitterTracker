@@ -39,7 +39,7 @@ def main():
     myStreamListener = StdOutListener()
     myStream = tweepy.Stream(auth=api.auth, listener=myStreamListener)
 
-    myStream.filter(track=['NIKEiD', 'nike', 'nike custom OR customized'], async=False)
+    myStream.filter(track=['NIKEiD', 'nike custom OR customized'], async=False)
 
 if __name__ == "__main__":
     main()
